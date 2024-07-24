@@ -1,0 +1,152 @@
+.App {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  padding-top: 69px;
+  width: 100%;
+  background-color: rgba(241, 242, 246, 1);
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 92%;
+  height: 83px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  color: rgba(37, 44, 88, 1);
+  box-shadow: 0.2em 0.2em 0.8em rgba(107, 107, 107, 0.3);;
+}
+.Logo {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.User-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.Dashboard {
+  display: block;
+  width: 92%;
+  margin: auto;
+}
+
+
+.MainContent {
+  padding: 1rem;
+}
+
+.MainContent2 {
+  min-height: 800px;
+}
+
+.TopBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.Profile {
+  background-color: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 3rem;
+  color: rgba(37, 44, 88, 1);
+}
+
+.Card {
+  display: flex;
+  justify-content: space-between;
+  height: 134px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1rem;
+  border-radius: 15px;
+  flex: 1 1 28%;
+  min-width: 200px;
+  box-shadow: 0.2em 0.2em 0.8em rgba(135, 135, 135, 0.3);;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Card-amount {
+  margin: 0;
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.Card-text {
+  margin: 0;
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  background-color:rgba(230, 234, 245, 1);
+  margin: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.icon img {
+  margin: 0 auto;
+}
+
+.Charts {
+  display: flex;
+  gap: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.Chart-1 {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 15px;
+  width: 70%;
+  box-shadow: 0.2em 0.2em 0.8em rgba(135, 135, 135, 0.3);;
+}
+
+.Chart-2 {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 15px;
+  width: 30%;
+  box-shadow: 0.2em 0.2em 0.8em rgba(135, 135, 135, 0.3);;
+}
+
+.Chart-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.Chart-content {
+  background-color: #eaeaea;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
